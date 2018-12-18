@@ -195,8 +195,8 @@ setInterval(function() { //notifications
             '', {
                type: 'basic',
                iconUrl: 'icon5.png',
-               title: 'Acquia',
-               message: "Number of TAM tickets is now " +
+               title: localStorage.Domain,
+               message: "Number of tickets is now " +
                   localStorage
                   .unreadCount
             },
