@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<head>
+   <title>Count of Zendesk view Tickets</title>
+   <link href="style.css" rel="stylesheet"
+      type="text/css">
+   <script src="options.js"></script>
+</head>
+
+<body>
+   <h1>
+      Zendesk View Count
+   </h1>
+   <h2>Options</h2>
+   <form id="options">
+
+      <div class="notif"> <input type="checkbox"
+            name="isActivated"> Notify
+         about change in your Zendesk
+         view count each
+         <select id="notifrequency"
+            name="notifrequency">
+            <option>1</option>
+            <option>5</option>
+            <option>10</option>
+            <option>30</option>
+            <option>60</option>
+            <option>120</option>
+            <option>300</option>
+            <option>720</option>
+            <option>1440</option>
+            <option>2880</option>
+         </select>
+         minute(s).</div>
+
+      <br /><br />
+      The domain of your Zendesk eq
+      domain.zendesk.com
+      <input type="text" id="Domain"
+         name="Domain" required
+         minlength="4" maxlength="30"
+         size="30">
+      <br /><br />
+      Please make sure that you have
+      the right Zendesk View ID and
+      that you are curently logged in
+      to your zendesk.
+      <input type="text" id="ViewID"
+         name="ViewID" required
+         minlength="4" maxlength="14"
+         size="14">
+      <br /><br />
+      Check for tickets change each
+      <select name="checkfrequency">
+         <option>10</option>
+         <option>20</option>
+         <option>30</option>
+         <option>60</option>
+         <option>120</option>
+         <option>300</option>
+         <option>600</option>
+         <option>1800</option>
+         <option>3600</option>
+         <option>86400</option>
+      </select>
+      seconds.
+      <br /><br />
+
+   </form>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Zendesk View Tickets",
+  "description": "Get the count of Zendesk tickets from your Zendesk View!",
+  "version": "1.3",
+  "background": {
+
+     "scripts": ["js/jquery/jquery.js", "background.js"]
+   },
+   "options_page": "options.html",
+  "permissions": ["storage","notifications","https://*.zendesk.com/api/*"],
+  "browser_action": {
+      "name": "Tickets count"
+  },
+  "manifest_version": 2
+}
