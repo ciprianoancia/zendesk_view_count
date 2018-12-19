@@ -1,5 +1,5 @@
 # Zendesk View Count
-This Chrome extension<a/> is using the <a href="https://developer.zendesk.com/rest_api">Zendesk API</a> in order to display in the <a href="https://github.com/ciprianoancia/zendesk_view_count/blob/master/How%20it%20works.png">extension's icon</a> the count of Zendesk tickets from a View of your choice. It also notifies you at the defined frequency for any change in the count number.
+This Chrome extension<a/> is using the <a href="https://developer.zendesk.com/rest_api">Zendesk API</a> in order to display in the <a href="https://github.com/ciprianoancia/zendesk_view_count/blob/master/How%20it%20works.png">extension's icon</a> the count of tickets from a Zendesk View of your choice. It also notifies you at the defined frequency for any change in the count number.
 
 # How to install
 
