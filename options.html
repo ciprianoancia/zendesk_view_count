@@ -12,7 +12,10 @@
    <h1>
       <a href="https://github.com/ciprianoancia/zendes_view_count">Zendesk View Count</a>
    </h1>
-   <h2>Options</h2>
+   
+   This Chrome extension<a/> is using the <a href="https://developer.zendesk.com/rest_api">Zendesk API</a> in order to display in the <a href="https://github.com/ciprianoancia/zendesk_view_count/blob/master/How%20it%20works.png">extension's icon</a> the count of tickets from a Zendesk View of your choice. It also notifies you at the defined frequency for any change in the count number.
+In order to have this working, please ensure that you are logged in on your Zendesk account and that you setup the following values.   
+<h2>Options</h2>
    <form id="options">
 
       <div class="notif"> <input type="checkbox"
@@ -42,10 +45,7 @@
          minlength="4" maxlength="30"
          size="30">
       <br /><br />
-      Please make sure that you have
-      the right Zendesk View ID and
-      that you are curently logged in
-      to your zendesk.
+      Zendesk ViewID
       <input type="text" id="ViewID"
          name="ViewID" required
          minlength="4" maxlength="14"
