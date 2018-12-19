@@ -14,4 +14,5 @@ Please let me know if there are any possible bugs by opening an issue on the rep
 Source code: https://github.com/ciprianoancia/zendesk_view_count
 
 Many thanks,
+
 Ciprian
